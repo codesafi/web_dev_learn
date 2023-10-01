@@ -37,8 +37,10 @@
                 <div class="w-50  d-flex justify-content-center mx-1" >
                     <div class="bg-primary w-100 p-2 text-center rounded" onclick="switchTab('login')">
                         
-                        <span class="text-light">Login</span></div>
+                        <span class= "text-light">Login</span></div>
                 </div>
+                
+                
 
 
                 <div class="w-50  d-flex justify-content-center mx-1">
@@ -50,11 +52,41 @@
 
             <div id="login_form_div" class=" mt-3 p-3 bg-light rounded">
                 <p class="font-monospace fw-bold text-secondary">Login Form</p>
+
+                <div class="log-form">
+                   
+                    <form>
+                      <label><b>Username</b></label>
+                      <input type="text"  placeholder="username" /><br>
+                      
+                      
+                      <label><b>Password</b></label>
+                      <input type="password" placeholder="password" /><br>
+                     
+                      <button type="submit" class="btn">Login</button>
+                      
+                    </form>
+                  </div><!--end log form -->
+
+
             </div>
 
 
             <div id="signup_form_div" class=" mt-3 p-3 bg-light rounded" hidden>
                 <p class="font-monospace fw-bold text-secondary">Sign-Up Form</p>
+
+                 <form>
+                    <label><b>First Name</b></label>
+                    <input type="text" placeholder="user first name"><br>
+                    <label><b>last Name</b></label><input type="text" placeholder="user last name"><br>
+
+                    <label><b>Email Address</b></label><input type="email" placeholder="Email address"><br>
+                    <label><b>password</b></label><input type="password" placeholder="password"><br>
+                    <button type="submit" class="btn">Sign-Up</button>
+                 </form>
+                
+
+
             </div>
            
         </div>

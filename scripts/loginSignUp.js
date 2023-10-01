@@ -14,3 +14,9 @@ function switchTab(showTab) {
     signupForm.removeAttribute('hidden');
   }
 }
+
+
+// const content = document.querySelector('.text-light');
+// content.addEventListener('click', function(){
+//    console.log('i have clicked on login btn');
+// });
